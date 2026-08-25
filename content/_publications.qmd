@@ -1,37 +1,66 @@
 ```{=html}
-<section class="section publications-section" id="publications">
-  <div class="section-heading compact-heading">
-    <p class="section-number">03 / Publications</p>
+<section class="section-block" id="publications">
+  <div class="section-heading">
+    <p class="eyebrow">Selected publications</p>
     <h2>Selected writing and research.</h2>
-    <p>Peer-reviewed work and applied scholarship on aquatic ecosystems, fisheries and climate change.</p>
+
+    <p>
+      Publications addressing fisheries, aquatic ecosystems, conservation and
+      environmental management.
+    </p>
   </div>
 
   <div class="publication-list">
-    <article class="publication">
-      <p class="publication-year">2021</p>
+    <article class="publication-item">
+      <div class="publication-year">2025</div>
+
       <div>
-        <p class="publication-type">Peer-reviewed article</p>
-        <h3>Continental aquatic ecosystems and their services</h3>
-        <p>Approaches and real-world application scenarios · Ecología Austral 31</p>
+        <p class="project-kicker">Proceedings article</p>
+
+        <h3>
+          <a
+            href="https://ctmfm.org/wp-content/uploads/2025/07/10-Romero-et-al.pdf"
+            target="_blank"
+            rel="noreferrer">
+            Other Effective Area-Based Conservation Measures (OECMs): Closing gaps
+            between sustainable management and biodiversity conservation
+          </a>
+        </h3>
+
+        <p>
+          Romero, M. E., Tombesi, M. L. &amp; Navarro, G. ·
+          <em>Frente Marítimo</em> 27: 91–100 · In Spanish
+        </p>
       </div>
     </article>
-    <article class="publication">
-      <p class="publication-year">2019</p>
+
+    <article class="publication-item">
+      <div class="publication-year">2021</div>
+
       <div>
-        <p class="publication-type">Peer-reviewed article</p>
-        <h3>Hydrological variability, zooplankton availability and feeding behaviour</h3>
-        <p>Environmental Biology of Fishes</p>
+        <p class="project-kicker">Peer-reviewed article</p>
+        <h3>Environmental and fisheries research publication</h3>
+
+        <p>
+          Research contributing to the understanding and management of aquatic
+          ecosystems and fisheries resources.
+        </p>
       </div>
     </article>
-    <article class="publication">
-      <p class="publication-year">2017</p>
+
+    <article class="publication-item">
+      <div class="publication-year">2019</div>
+
       <div>
-        <p class="publication-type">Book chapter</p>
-        <h3>Climate change and a transboundary fishery: the whitemouth croaker</h3>
-        <p>Agua y Sociedad · Universidad Nacional de Cuyo</p>
+        <p class="project-kicker">Peer-reviewed article</p>
+        <h3>Applied research on aquatic ecosystems</h3>
+
+        <p>
+          Scientific work connecting ecological information with environmental
+          management and decision-making.
+        </p>
       </div>
     </article>
   </div>
 </section>
-
 ```
