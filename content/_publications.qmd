@@ -1,13 +1,12 @@
 ```{=html}
-<section class="section-block" id="publications">
+<section class="section-block publications-section" id="publications">
   <div class="section-heading">
     <p class="eyebrow">Selected publications</p>
-    <h2>Selected writing and research.</h2>
 
-    <p>
-      Publications addressing fisheries, aquatic ecosystems, conservation and
-      environmental management.
-    </p>
+    <div>
+      <h2>Publications</h2>
+      <p>Peer-reviewed articles and published conference proceedings.</p>
+    </div>
   </div>
 
   <div class="publication-list">
@@ -15,15 +14,16 @@
       <div class="publication-year">2025</div>
 
       <div>
-        <p class="project-kicker">Proceedings article</p>
+        <p class="project-kicker">Published proceedings article</p>
 
         <h3>
           <a
             href="https://ctmfm.org/wp-content/uploads/2025/07/10-Romero-et-al.pdf"
             target="_blank"
             rel="noreferrer">
-            Other Effective Area-Based Conservation Measures (OECMs): Closing gaps
-            between sustainable management and biodiversity conservation
+            Otras medidas efectivas de conservación basadas en áreas (OMEC):
+            Acortando brechas entre el manejo sostenible y la conservación de la
+            biodiversidad
           </a>
         </h3>
 
@@ -35,15 +35,25 @@
     </article>
 
     <article class="publication-item">
-      <div class="publication-year">2021</div>
+      <div class="publication-year">2022</div>
 
       <div>
         <p class="project-kicker">Peer-reviewed article</p>
-        <h3>Environmental and fisheries research publication</h3>
+
+        <h3>
+          <a
+            href="https://doi.org/10.25260/EA.22.32.1.1.1290"
+            target="_blank"
+            rel="noreferrer">
+            Ecosistemas acuáticos continentales y sus servicios: Enfoques y
+            escenarios de aplicación en el mundo real
+          </a>
+        </h3>
 
         <p>
-          Research contributing to the understanding and management of aquatic
-          ecosystems and fisheries resources.
+          Pascual, M., Barral, M. P., Poca, M., Pessacg, N., García Silva, L.,
+          Albariño, R., Romero, M. E. &amp; Jobbágy, E. G. ·
+          <em>Ecología Austral</em> 32(1-bis): 195–212 · In Spanish
         </p>
       </div>
     </article>
@@ -53,11 +63,21 @@
 
       <div>
         <p class="project-kicker">Peer-reviewed article</p>
-        <h3>Applied research on aquatic ecosystems</h3>
+
+        <h3>
+          <a
+            href="https://doi.org/10.1007/s10641-019-00865-8"
+            target="_blank"
+            rel="noreferrer">
+            Hydrological variability, zooplankton availability and the shift
+            between planktivore-benthivore feeding behaviour in the visual
+            predator fish, <em>Odontesthes bonariensis</em>
+          </a>
+        </h3>
 
         <p>
-          Scientific work connecting ecological information with environmental
-          management and decision-making.
+          Rennella, A. M., Geronazzo, M. D., Romero, M. E., Boveri, M. &amp;
+          Rosso, J. J. · <em>Environmental Biology of Fishes</em> 102: 713–725
         </p>
       </div>
     </article>
