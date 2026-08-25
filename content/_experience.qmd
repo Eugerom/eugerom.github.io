@@ -2,12 +2,11 @@
 <section class="section-block" id="experience">
   <div class="section-heading">
     <p class="eyebrow">Selected experience</p>
-    <h2>Environmental science, analysis and public decision-making.</h2>
 
-    <p>
-      Experience connecting technical analysis, ecosystem knowledge and
-      environmental policy within public institutions and academic settings.
-    </p>
+    <div>
+      <h2>Professional experience</h2>
+      <p>Selected roles in national government and university teaching.</p>
+    </div>
   </div>
 
   <div class="experience-layout">
@@ -20,9 +19,9 @@
           <h3>Fisheries Management Coordinator</h3>
 
           <p>
-            Integrated spatial, scientific and policy evidence for marine fisheries
-            management. Work included vessel-monitoring data, fisheries statistics,
-            IUU fishing, BBNJ, OECMs, bycatch and ecosystem-based management.
+            Coordinated technical work supporting marine fisheries management,
+            including vessel-monitoring data, fisheries statistics, IUU fishing,
+            BBNJ, OECMs, bycatch and ecosystem-based management.
           </p>
         </div>
       </article>
@@ -31,13 +30,13 @@
         <div class="timeline-date">2008–2022</div>
 
         <div>
-          <p class="project-kicker">National Government of Argentina</p>
+          <p class="project-kicker">Ministry of Environment, Argentina</p>
           <h3>Environmental Management Specialist</h3>
 
           <p>
-            Contributed to environmental assessment, wetland management,
-            biodiversity conservation and the analysis of environmental information
-            for public-policy processes.
+            Worked on water and aquatic ecosystems, wetland inventories,
+            biodiversity conservation, environmental assessment and technical
+            support for national policy processes.
           </p>
         </div>
       </article>
@@ -50,9 +49,8 @@
           <h3>Assistant Teacher</h3>
 
           <p>
-            Supported teaching in environmental science, ecology and natural-resource
-            management, connecting ecological concepts with applied environmental
-            problems.
+            Supported teaching and applied activities in aquaculture and aquatic
+            ecology, including biological sampling and fish-diet work.
           </p>
         </div>
       </article>
@@ -60,17 +58,13 @@
 
     <aside class="methods-panel">
       <p class="project-kicker">Methods and tools</p>
-      <h3>A multidisciplinary toolkit</h3>
+      <h3>Technical profile</h3>
 
       <ul class="methods-list">
-        <li>ArcGIS and QGIS</li>
-        <li>Google Earth Engine</li>
-        <li>R and Python</li>
-        <li>AIS and vessel-monitoring data</li>
-        <li>Remote sensing</li>
-        <li>Environmental assessment</li>
-        <li>Fisheries statistics</li>
-        <li>Technical and policy writing</li>
+        <li><strong>Spatial:</strong> ArcGIS, QGIS, Google Earth Engine and remote sensing</li>
+        <li><strong>Analysis:</strong> R, Python and large spatial datasets</li>
+        <li><strong>Fisheries:</strong> AIS, VMS, landings and fisheries statistics</li>
+        <li><strong>Applied work:</strong> environmental assessment and technical writing</li>
       </ul>
     </aside>
   </div>
