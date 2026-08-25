@@ -2,25 +2,15 @@
 <section class="contact-section" id="contact">
   <div>
     <p class="eyebrow">Contact</p>
-    <h2>Continuing to connect environmental evidence with public policy.</h2>
+    <h2>Open to research and applied environmental work.</h2>
 
     <p>
-      I am based in Baltimore, Maryland, and interested in opportunities that
-      connect fisheries, marine and freshwater systems, spatial analysis,
-      conservation and evidence-informed public decision-making.
+      I am based in Baltimore and interested in continuing to work on projects
+      where environmental data and spatial analysis can support research,
+      management and public policy.
     </p>
   </div>
 
   <div class="contact-actions">
-    <a class="button button-primary" href="mailto:romeroma.euge@gmail.com">
-      Get in touch
-    </a>
-  </div>
-</section>
-
-<footer class="site-footer">
-  <p>© Maria Eugenia Romero</p>
-  <p>Environmental science · Spatial analysis · Policy</p>
-</footer>
-</div>
-```
+    <a class="button button-light" href="mailto:romeroma.euge@gmail.com">
+      Get
