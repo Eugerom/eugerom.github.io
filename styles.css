@@ -1,15 +1,15 @@
 :root {
-  --background: #f7f7f4;
-  --surface: #ffffff;
-  --ink: #24343b;
-  --muted: #5d6b71;
-  --atlantic: #1f4e66;
-  --river: #56869a;
-  --water-light: #dce9ed;
-  --sand: #e8e1d5;
-  --terracotta: #b8684b;
-  --line: #d6dde0;
-  --shadow: 0 18px 50px rgba(31, 78, 102, 0.08);
+  --background: #071e26;
+  --surface: #0d2a34;
+  --ink: #eafbfa;
+  --muted: #9bbdc1;
+  --atlantic: #eafbfa;
+  --river: #31c7d4;
+  --water-light: #0b3440;
+  --sand: #0e333b;
+  --terracotta: #ff745c;
+  --line: rgba(49, 199, 212, 0.22);
+  --shadow: 0 22px 60px rgba(0, 8, 12, 0.32);
   --content-width: 1240px;
 }
 
@@ -25,9 +25,13 @@ html {
 body {
   margin: 0;
   overflow-x: hidden;
-  background: var(--background);
+  background:
+    linear-gradient(rgba(49, 199, 212, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(49, 199, 212, 0.025) 1px, transparent 1px),
+    var(--background);
+  background-size: 90px 90px;
   color: var(--ink);
-  font-family: "DM Sans", Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -75,7 +79,7 @@ img {
   min-height: 82px;
   padding: 14px max(28px, calc((100vw - var(--content-width)) / 2));
   border-bottom: 1px solid var(--line);
-  background: rgba(247, 247, 244, 0.96);
+  background: rgba(7, 30, 38, 0.94);
   backdrop-filter: blur(12px);
 }
 
@@ -87,17 +91,19 @@ img {
 }
 
 .wordmark-name {
-  color: var(--atlantic);
-  font-family: "Fraunces", Georgia, serif;
+  color: var(--river);
+  font-family: "Courier New", monospace;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: 0.025em;
 }
 
 .wordmark-role {
   margin-top: 3px;
   color: var(--muted);
   font-size: 10px;
-  font-weight: 600;
+  font-family: "Courier New", monospace;
+  font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -107,7 +113,10 @@ img {
   align-items: center;
   gap: 28px;
   font-size: 13px;
-  font-weight: 500;
+  font-family: "Courier New", monospace;
+  font-weight: 700;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
 }
 
 .site-nav a {
@@ -154,6 +163,7 @@ img {
 .frame-bar {
   margin: 0;
   color: var(--river);
+  font-family: "Courier New", monospace;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.13em;
@@ -168,15 +178,15 @@ img {
 .methods-panel h3,
 .publication-item h3,
 .contact-section h2 {
-  font-family: "Fraunces", Georgia, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.04em;
 }
 
 .hero h1 {
   max-width: 650px;
   margin: 25px 0 26px;
-  color: var(--atlantic);
+  color: var(--ink);
   font-size: clamp(48px, 5vw, 72px);
   line-height: 1.03;
 }
@@ -206,7 +216,8 @@ img {
   min-width: 205px;
   padding: 14px 18px;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 0;
+  font-family: "Courier New", monospace;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.035em;
@@ -214,8 +225,8 @@ img {
 }
 
 .button-primary {
-  background: var(--atlantic);
-  color: #ffffff;
+  background: var(--river);
+  color: var(--background);
 }
 
 .button-primary:hover,
@@ -232,9 +243,8 @@ img {
   overflow: hidden;
   border-left: 1px solid var(--line);
   background:
-    linear-gradient(rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.34)),
-    repeating-linear-gradient(90deg, transparent 0 89px, rgba(31, 78, 102, 0.045) 90px),
-    repeating-linear-gradient(0deg, transparent 0 89px, rgba(31, 78, 102, 0.045) 90px),
+    repeating-linear-gradient(90deg, transparent 0 89px, rgba(49, 199, 212, 0.08) 90px),
+    repeating-linear-gradient(0deg, transparent 0 89px, rgba(49, 199, 212, 0.08) 90px),
     var(--water-light);
 }
 
@@ -242,7 +252,7 @@ img {
   position: absolute;
   width: 72%;
   aspect-ratio: 1;
-  border: 1px solid rgba(86, 134, 154, 0.34);
+  border: 1px solid rgba(49, 199, 212, 0.42);
   border-radius: 50%;
   content: "";
   animation: orbit-drift 10s ease-in-out infinite alternate;
@@ -254,7 +264,7 @@ img {
   right: 17%;
   width: 13px;
   height: 13px;
-  border: 4px solid rgba(184, 104, 75, 0.2);
+  border: 4px solid rgba(255, 116, 92, 0.2);
   border-radius: 50%;
   background: var(--terracotta);
   content: "";
@@ -266,8 +276,10 @@ img {
   position: relative;
   z-index: 1;
   width: min(94%, 760px);
+  filter: brightness(0) invert(1);
   mix-blend-mode: normal;
   object-fit: contain;
+  opacity: 0.94;
   animation: mark-float 7s ease-in-out infinite alternate;
 }
 
@@ -283,7 +295,8 @@ img {
 
 .intro-strip > p {
   margin: 0;
-  color: var(--atlantic);
+  color: var(--river);
+  font-family: "Courier New", monospace;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -341,7 +354,7 @@ img {
 
 .section-heading h2 {
   margin: -8px 0 12px;
-  color: var(--atlantic);
+  color: var(--ink);
   font-size: clamp(38px, 4vw, 58px);
   line-height: 1.08;
 }
@@ -361,7 +374,7 @@ img {
   margin-bottom: 30px;
   overflow: hidden;
   border: 1px solid var(--line);
-  border-radius: 14px;
+  border-radius: 0;
   background: var(--surface);
   box-shadow: var(--shadow);
   transition: transform 220ms ease, box-shadow 220ms ease;
@@ -369,7 +382,7 @@ img {
 
 .featured-project:hover {
   transform: translateY(-4px);
-  box-shadow: 0 24px 62px rgba(31, 78, 102, 0.14);
+  box-shadow: 0 26px 68px rgba(0, 8, 12, 0.48);
 }
 
 .featured-copy {
@@ -393,7 +406,7 @@ img {
 
 .featured-copy h3 {
   margin: 14px 0 20px;
-  color: var(--atlantic);
+  color: var(--ink);
   font-size: clamp(32px, 3vw, 46px);
   line-height: 1.08;
 }
@@ -417,9 +430,10 @@ img {
 .tag-list li {
   padding: 7px 10px;
   border: 1px solid var(--line);
-  border-radius: 18px;
+  border-radius: 0;
   background: var(--background);
-  color: var(--muted);
+  color: var(--river);
+  font-family: "Courier New", monospace;
   font-size: 11px;
 }
 
@@ -427,7 +441,7 @@ img {
   display: grid;
   grid-template-rows: 40px 1fr;
   min-width: 0;
-  background: #dde4e6;
+  background: #020f14;
 }
 
 .frame-bar {
@@ -435,8 +449,8 @@ img {
   align-items: center;
   justify-content: space-between;
   padding: 0 15px;
-  background: var(--atlantic);
-  color: #ffffff;
+  background: #020f14;
+  color: var(--river);
   font-size: 9px;
 }
 
@@ -460,14 +474,14 @@ img {
   min-height: 330px;
   padding: 38px;
   border: 1px solid var(--line);
-  border-radius: 12px;
+  border-radius: 0;
   background: var(--surface);
 }
 
 .project-card h3 {
   margin: 12px 0 16px;
-  color: var(--atlantic);
-  font-family: "Fraunces", Georgia, serif;
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-weight: 500;
   line-height: 1.1;
@@ -476,7 +490,7 @@ img {
 .card-index {
   align-self: flex-end;
   color: var(--river);
-  font-family: "Fraunces", Georgia, serif;
+  font-family: "Courier New", monospace;
   font-size: 42px;
   opacity: 0.45;
 }
@@ -490,7 +504,7 @@ img {
 
 .timeline {
   position: relative;
-  border-top: 1px solid var(--atlantic);
+  border-top: 1px solid var(--river);
 }
 
 .timeline::before {
@@ -535,7 +549,7 @@ img {
 
 .timeline-item h3 {
   margin: 5px 0 10px;
-  color: var(--atlantic);
+  color: var(--ink);
   font-size: 27px;
   line-height: 1.15;
 }
@@ -550,13 +564,14 @@ img {
 
 .methods-panel {
   padding: 34px;
-  border-radius: 12px;
-  background: var(--atlantic);
+  border: 1px solid var(--line);
+  border-radius: 0;
+  background: #04151b;
   color: #ffffff;
 }
 
 .methods-panel .project-kicker {
-  color: #b9d6df;
+  color: var(--river);
 }
 
 .methods-panel h3 {
@@ -572,8 +587,8 @@ img {
 
 .methods-list li {
   padding: 17px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.18);
-  color: rgba(255, 255, 255, 0.82);
+  border-top: 1px solid var(--line);
+  color: rgba(234, 251, 250, 0.82);
   font-size: 13px;
   line-height: 1.55;
 }
@@ -587,7 +602,7 @@ img {
 }
 
 .publication-list {
-  border-top: 1px solid var(--atlantic);
+  border-top: 1px solid var(--river);
 }
 
 .publication-item {
@@ -600,14 +615,14 @@ img {
 
 .publication-year {
   color: var(--terracotta);
-  font-family: "Fraunces", Georgia, serif;
+  font-family: "Courier New", monospace;
   font-size: 28px;
 }
 
 .publication-item h3 {
   max-width: 930px;
   margin: 7px 0 10px;
-  color: var(--atlantic);
+  color: var(--ink);
   font-size: 25px;
   line-height: 1.25;
 }
@@ -622,7 +637,7 @@ img {
   margin-left: 8px;
   color: var(--terracotta);
   content: "↗";
-  font-family: "DM Sans", Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 0.62em;
   transition: transform 180ms ease;
 }
@@ -645,12 +660,12 @@ img {
   align-items: end;
   gap: 70px;
   padding: 72px max(28px, calc((100vw - var(--content-width)) / 2));
-  background: var(--atlantic);
-  color: #ffffff;
+  background: var(--river);
+  color: var(--background);
 }
 
 .contact-section .eyebrow {
-  color: #b9d6df;
+  color: var(--background);
 }
 
 .contact-section h2 {
@@ -663,7 +678,7 @@ img {
 .contact-section div > p:last-child {
   max-width: 700px;
   margin: 0;
-  color: rgba(255, 255, 255, 0.78);
+  color: rgba(7, 30, 38, 0.78);
   font-size: 16px;
   line-height: 1.7;
 }
@@ -673,16 +688,16 @@ img {
 }
 
 .button-light {
-  border-color: rgba(255, 255, 255, 0.45);
-  background: #ffffff;
-  color: var(--atlantic);
+  border-color: var(--background);
+  background: var(--background);
+  color: var(--ink);
 }
 
 .button-light:hover,
 .button-light:focus-visible {
-  border-color: #ffffff;
-  background: transparent;
-  color: #ffffff;
+  border-color: var(--terracotta);
+  background: var(--terracotta);
+  color: var(--background);
 }
 
 .site-footer {
@@ -690,8 +705,9 @@ img {
   justify-content: space-between;
   gap: 24px;
   padding: 25px max(28px, calc((100vw - var(--content-width)) / 2));
-  background: #173a4d;
-  color: rgba(255, 255, 255, 0.66);
+  background: #020f14;
+  color: rgba(234, 251, 250, 0.66);
+  font-family: "Courier New", monospace;
   font-size: 10px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
