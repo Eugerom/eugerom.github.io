@@ -1,40 +1,48 @@
 ```{=html}
-<section class="section" id="projects">
+<section class="section-block" id="work">
   <div class="section-heading">
-    <p class="section-number">01 / Selected projects</p>
-    <h2>Spatial questions, made visible.</h2>
-    <p>Exploratory tools and applied analyses developed across research, government and professional training.</p>
+    <p class="eyebrow">Selected work</p>
+    <h2>Spatial evidence made usable.</h2>
+    <p>
+      Selected analytical and geospatial products developed across marine,
+      fisheries and freshwater contexts.
+    </p>
   </div>
 
   <article class="featured-project">
-    <div class="project-copy">
-      <p class="project-kicker">Featured · Interactive dashboard</p>
+    <div class="featured-copy">
+      <p class="project-kicker">ArcGIS Dashboards · Exploratory prototype</p>
       <h3>Global seismic-vessel presence</h3>
+
       <p>
-        An exploratory ArcGIS dashboard that maps the distribution and temporal
-        patterns of vessels associated with marine seismic surveys using Global
-        Fishing Watch presence data.
+        An exploratory dashboard developed to examine the spatial and temporal
+        presence of vessels potentially associated with offshore seismic surveys.
+        It combines vessel-position information with transparent classification
+        rules to distinguish possible transit from possible operational patterns.
       </p>
-      <p class="project-note">
-        The activity categories are analytical proxies based on vessel presence
-        and movement characteristics. They should not be read as validated
-        acoustic operations.
-      </p>
-      <ul class="tag-list" aria-label="Tools and topics">
+
+      <ul class="tag-list">
         <li>ArcGIS Dashboards</li>
-        <li>Global Fishing Watch</li>
         <li>AIS</li>
+        <li>Global Fishing Watch</li>
         <li>Spatial analysis</li>
       </ul>
-      <a class="button button-primary" href="https://uw.maps.arcgis.com/apps/dashboards/308a5c604d7c478d890db1a31d34c2d9" target="_blank" rel="noreferrer">
+
+      <a
+        class="button button-primary"
+        href="https://uw.maps.arcgis.com/apps/dashboards/308a5c604d7c478d890db1a31d34c2d9"
+        target="_blank"
+        rel="noreferrer">
         Open full dashboard <span aria-hidden="true">↗</span>
       </a>
     </div>
+
     <div class="dashboard-frame">
       <div class="frame-bar">
-        <span>GLOBAL VIEW</span>
+        <span>GLOBAL SEISMIC-VESSEL PRESENCE</span>
         <span>INTERACTIVE</span>
       </div>
+
       <iframe
         title="Global seismic-vessel presence dashboard"
         src="https://uw.maps.arcgis.com/apps/dashboards/308a5c604d7c478d890db1a31d34c2d9"
@@ -44,52 +52,72 @@
     </div>
   </article>
 
-<div class="project-grid">
-  <article class="project-card project-card-water">
-    <div class="card-index">02</div>
-    <div>
-      <p class="project-kicker">Remote sensing · Case study</p>
+  <article class="featured-project" style="border-top: 0;">
+    <div class="featured-copy">
+      <p class="project-kicker">Remote sensing · Interactive application</p>
       <h3>Hydrological variability and fisheries in the Paraná floodplain</h3>
+
       <p>
-        A Google Earth Engine comparison of contrasting hydrological conditions
-        near Victoria, Argentina, connected to fish recruitment and government
-        monitoring records.
+        An interactive Google Earth Engine application comparing surface-water
+        extent during contrasting hydrological conditions near Victoria, Argentina,
+        and relating these patterns to fish recruitment and government monitoring
+        records.
       </p>
+
+      <ul class="tag-list">
+        <li>Google Earth Engine</li>
+        <li>Surface water</li>
+        <li>Fisheries ecology</li>
+        <li>Remote sensing</li>
+      </ul>
+
+      <a
+        class="button button-primary"
+        href="https://romeroma.users.earthengine.app/view/parana-floodplain"
+        target="_blank"
+        rel="noreferrer">
+        Open Earth Engine app <span aria-hidden="true">↗</span>
+      </a>
     </div>
 
-    <ul class="tag-list">
-      <li>Google Earth Engine</li>
-      <li>Surface water</li>
-      <li>Fisheries ecology</li>
-    </ul>
+    <div class="dashboard-frame">
+      <div class="frame-bar">
+        <span>PARANÁ FLOODPLAIN</span>
+        <span>INTERACTIVE</span>
+      </div>
 
-    <a
-      class="button button-primary"
-      href="https://romeroma.users.earthengine.app/view/parana-floodplain"
-      target="_blank"
-      rel="noreferrer">
-      Open Earth Engine app <span aria-hidden="true">↗</span>
-    </a>
+      <iframe
+        title="Paraná floodplain Google Earth Engine application"
+        src="https://romeroma.users.earthengine.app/view/parana-floodplain"
+        loading="lazy"
+        allow="fullscreen"
+        allowfullscreen>
+      </iframe>
+    </div>
   </article>
 
-    <article class="project-card project-card-fleet">
+  <div class="project-grid" style="grid-template-columns: 1fr;">
+    <article class="project-card">
       <div class="card-index">03</div>
+
       <div>
-        <p class="project-kicker">Government analysis · Argentina</p>
-        <h3>Commercial-fleet spatial patterns</h3>
+        <p class="project-kicker">Fisheries · Spatial analysis</p>
+        <h3>Argentine commercial-fleet analysis</h3>
+
         <p>
-          Spatial analysis and mapping of Argentine commercial-fleet landings,
-          vessel-monitoring data and bottom-trawl activity to support fisheries
-          planning and technical reporting.
+          Spatial analysis and mapping of Argentine commercial-fleet landings and
+          vessel-monitoring data to support fisheries planning and technical
+          reporting.
         </p>
       </div>
+
       <ul class="tag-list">
-        <li>VMS</li>
-        <li>R &amp; Python</li>
-        <li>Fisheries management</li>
+        <li>Fisheries data</li>
+        <li>Vessel monitoring</li>
+        <li>Spatial analysis</li>
+        <li>Technical reporting</li>
       </ul>
     </article>
   </div>
 </section>
-
 ```
