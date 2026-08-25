@@ -9,7 +9,6 @@ website:
   favicon: images/favicon.svg
   search: false
   navbar: false
-  page-footer: false
   open-graph:
     title: "Maria Eugenia Romero | Fisheries & Marine Spatial Analysis"
     description: "Environmental scientist connecting fisheries, marine spatial analysis, aquatic ecosystems and environmental policy."
