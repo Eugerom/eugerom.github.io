@@ -32,12 +32,18 @@
       </p>
 
       <div class="hero-actions">
-        <a class="button button-primary" href="#work">Explore selected work</a>
+        <a class="button button-primary" href="#work">
+          Explore selected work
+        </a>
       </div>
     </div>
 
-    <div class="hero-art" aria-label="Abstract line illustration inspired by a grasshopper and a fish">
-      <img src="images/grasshopper-fish.png" alt="Abstract grasshopper-fish line illustration">
+    <div
+      class="hero-art"
+      aria-label="Abstract line illustration inspired by a grasshopper and a fish">
+      <img
+        src="images/grasshopper-fish.png"
+        alt="Abstract grasshopper-fish line illustration">
     </div>
   </section>
 
