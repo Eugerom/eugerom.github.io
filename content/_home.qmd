@@ -1,3 +1,4 @@
+
 ```{=html}
 <header class="site-header">
   <a class="wordmark" href="#top" aria-label="Maria Eugenia Romero, home">
@@ -32,27 +33,20 @@
       </p>
 
       <div class="hero-actions">
-        <a class="button button-primary" href="#work">
-          Explore selected work
-        </a>
+        <a class="button button-primary" href="#work">Explore selected work</a>
       </div>
     </div>
 
-    <div
-      class="hero-art"
-      aria-label="Abstract line illustration inspired by a grasshopper and a fish">
-      <img
-        src="images/grasshopper-fish.png"
-        alt="Abstract grasshopper-fish line illustration">
+    <div class="hero-art" aria-label="Abstract line illustration inspired by a grasshopper and a fish">
+      <img src="images/grasshopper-fish-v2.png" alt="Abstract grasshopper-fish line illustration among flowing water lines">
     </div>
   </section>
 
   <section class="intro-strip" aria-label="Areas of practice">
     <p>Areas of practice</p>
-
     <ul class="focus-list">
       <li>Marine fisheries and ocean governance</li>
-      <li>Wetlands and freshwater systems</li>
+      <li>Wetlands and inland waters</li>
       <li>GIS and remote sensing</li>
       <li>Environmental management</li>
     </ul>
