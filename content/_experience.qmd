@@ -1,65 +1,78 @@
 ```{=html}
-<section class="section experience-section" id="experience">
-  <div class="section-heading compact-heading">
-    <p class="section-number">02 / Experience</p>
-    <h2>Science in the room where decisions are made.</h2>
+<section class="section-block" id="experience">
+  <div class="section-heading">
+    <p class="eyebrow">Selected experience</p>
+    <h2>Environmental science, analysis and public decision-making.</h2>
+
+    <p>
+      Experience connecting technical analysis, ecosystem knowledge and
+      environmental policy within public institutions and academic settings.
+    </p>
   </div>
 
-  <div class="timeline">
-    <article class="timeline-item">
-      <p class="timeline-date">2022—2025</p>
-      <div>
-        <h3>Fisheries Management Coordinator</h3>
-        <p class="timeline-org">Government of Argentina</p>
-        <p>
-          Integrated spatial, scientific and policy evidence for marine fisheries
-          management. Work included vessel-monitoring data, bottom-trawl footprints,
-          IUU fishing, BBNJ, OECMs, bycatch and ecosystem-based management.
-        </p>
-      </div>
-    </article>
-    <article class="timeline-item">
-      <p class="timeline-date">2008—2022</p>
-      <div>
-        <h3>Environmental Management Specialist</h3>
-        <p class="timeline-org">Ministry of Environment, Argentina</p>
-        <p>
-          Supported aquatic-biodiversity policy, environmental-impact assessment—including
-          offshore seismic exploration—wetland inventories, marine-litter initiatives and
-          national action plans for vulnerable marine species.
-        </p>
-      </div>
-    </article>
-    <article class="timeline-item">
-      <p class="timeline-date">2009—2020</p>
-      <div>
-        <h3>Assistant Teacher, Aquatic Ecology</h3>
-        <p class="timeline-org">University of Buenos Aires</p>
-        <p>
-          Taught and supported applied work in aquatic ecology, fisheries management,
-          ecosystem restoration and biological sampling.
-        </p>
-      </div>
-    </article>
-  </div>
+  <div class="experience-layout">
+    <div class="timeline">
+      <article class="timeline-item">
+        <div class="timeline-date">2022–2025</div>
 
-  <aside class="methods-panel">
-    <p class="section-number">Methods &amp; tools</p>
-    <div class="method-groups">
-      <div>
-        <h3>Spatial</h3>
-        <p>ArcGIS · QGIS · Google Earth Engine · Remote sensing</p>
-      </div>
-      <div>
-        <h3>Data</h3>
-        <p>R · Python · AIS/VMS · Fisheries statistics</p>
-      </div>
-      <div>
-        <h3>Policy</h3>
-        <p>EIA · BBNJ · OECMs · IUU fishing · Ecosystem-based management</p>
-      </div>
+        <div>
+          <p class="project-kicker">Argentina’s National Fisheries Authority</p>
+          <h3>Fisheries Management Coordinator</h3>
+
+          <p>
+            Integrated spatial, scientific and policy evidence for marine fisheries
+            management. Work included vessel-monitoring data, fisheries statistics,
+            IUU fishing, BBNJ, OECMs, bycatch and ecosystem-based management.
+          </p>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <div class="timeline-date">2008–2022</div>
+
+        <div>
+          <p class="project-kicker">National Government of Argentina</p>
+          <h3>Environmental Management Specialist</h3>
+
+          <p>
+            Contributed to environmental assessment, wetland management,
+            biodiversity conservation and the analysis of environmental information
+            for public-policy processes.
+          </p>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <div class="timeline-date">2009–2020</div>
+
+        <div>
+          <p class="project-kicker">University of Buenos Aires</p>
+          <h3>Assistant Teacher</h3>
+
+          <p>
+            Supported teaching in environmental science, ecology and natural-resource
+            management, connecting ecological concepts with applied environmental
+            problems.
+          </p>
+        </div>
+      </article>
     </div>
-  </aside>
-</section>
 
+    <aside class="methods-panel">
+      <p class="project-kicker">Methods and tools</p>
+      <h3>A multidisciplinary toolkit</h3>
+
+      <ul class="methods-list">
+        <li>ArcGIS and QGIS</li>
+        <li>Google Earth Engine</li>
+        <li>R and Python</li>
+        <li>AIS and vessel-monitoring data</li>
+        <li>Remote sensing</li>
+        <li>Environmental assessment</li>
+        <li>Fisheries statistics</li>
+        <li>Technical and policy writing</li>
+      </ul>
+    </aside>
+  </div>
+</section>
 ```
