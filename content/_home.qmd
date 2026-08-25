@@ -1,11 +1,8 @@
 ```{=html}
 <header class="site-header">
   <a class="wordmark" href="#top" aria-label="Maria Eugenia Romero, home">
-    <img src="images/favicon.svg" alt="" />
-    <span>
-      Maria Eugenia
-      <strong>Romero</strong>
-    </span>
+    <span class="wordmark-name">Maria Eugenia Romero</span>
+    <span class="wordmark-role">Environmental scientist</span>
   </a>
 
   <nav class="site-nav" aria-label="Main navigation">
@@ -20,16 +17,18 @@
   <section class="hero" id="top">
     <div class="hero-copy">
       <p class="eyebrow">
-        Fisheries · Aquatic ecosystems · Spatial analysis · Environmental policy
+        Marine conservation · Fisheries · Wetlands · Geospatial analysis
       </p>
 
-      <h1>Connecting environmental data with decision-making.</h1>
+      <h1>Environmental science, spatial analysis and public policy.</h1>
 
       <p class="hero-intro">
-        I am an environmental scientist working at the science–policy interface
-        across marine and freshwater systems. My practice combines fisheries
-        management, aquatic-ecosystem knowledge and geospatial analysis to support
-        evidence-informed public decisions.
+        Environmental scientist and geospatial analyst with more than 15 years
+        of experience across marine conservation, fisheries management,
+        biodiversity, wetlands and freshwater systems. I have worked in
+        Argentina’s national environmental and fisheries administrations,
+        translating monitoring data, scientific evidence and field observations
+        into spatial analyses, technical products and management recommendations.
       </p>
 
       <div class="hero-actions">
@@ -38,21 +37,18 @@
     </div>
 
     <div class="hero-art" aria-label="Abstract line illustration inspired by a grasshopper and a fish">
-      <img src="images/grasshopper-fish.png" alt="Abstract grasshopper-fish line illustration" />
+      <img src="images/grasshopper-fish.png" alt="Abstract grasshopper-fish line illustration">
     </div>
   </section>
 
-  <section class="intro-strip" aria-label="Professional focus">
-    <p>
-      My work connects environmental information, spatial evidence and institutional
-      processes across fisheries, marine environments and freshwater ecosystems.
-    </p>
+  <section class="intro-strip" aria-label="Areas of practice">
+    <p>Areas of practice</p>
 
     <ul class="focus-list">
-      <li>Fisheries management</li>
-      <li>Marine and freshwater systems</li>
-      <li>Geospatial analysis</li>
-      <li>Science–policy integration</li>
+      <li>Marine fisheries and ocean governance</li>
+      <li>Wetlands and freshwater systems</li>
+      <li>GIS and remote sensing</li>
+      <li>Environmental management</li>
     </ul>
   </section>
 ```
