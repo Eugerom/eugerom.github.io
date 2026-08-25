@@ -2,6 +2,7 @@
 <section class="contact-section" id="contact">
   <div>
     <p class="eyebrow">Contact</p>
+
     <h2>Open to research and applied environmental work.</h2>
 
     <p>
@@ -12,5 +13,17 @@
   </div>
 
   <div class="contact-actions">
-    <a class="button button-light" href="mailto:romeroma.euge@gmail.com">
-      Get
+    <a
+      class="button button-light"
+      href="mailto:romeroma.euge@gmail.com">
+      Get in touch <span aria-hidden="true">↗</span>
+    </a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p>© Maria Eugenia Romero</p>
+  <p>Environmental science · Spatial analysis · Policy</p>
+</footer>
+</div>
+```
