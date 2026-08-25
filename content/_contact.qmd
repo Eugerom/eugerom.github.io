@@ -2,9 +2,7 @@
 <section class="contact-section" id="contact">
   <div>
     <p class="eyebrow">Contact</p>
-
     <h2>Open to research and applied environmental work.</h2>
-
     <p>
       I am based in Baltimore and interested in continuing to work on projects
       where environmental data and spatial analysis can support research,
@@ -13,9 +11,7 @@
   </div>
 
   <div class="contact-actions">
-    <a
-      class="button button-light"
-      href="mailto:romeroma.euge@gmail.com">
+    <a class="button button-light" href="mailto:eugerom017@gmail.com">
       Get in touch <span aria-hidden="true">↗</span>
     </a>
   </div>
