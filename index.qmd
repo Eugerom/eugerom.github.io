@@ -1,0 +1,19 @@
+---
+title: "Maria Eugenia Romero | Fisheries & Marine Spatial Analysis"
+author: "Maria Eugenia Romero"
+description: "Environmental scientist connecting fisheries, marine spatial analysis, aquatic ecosystems and environmental policy."
+pagetitle: "Maria Eugenia Romero | Fisheries & Marine Spatial Analysis"
+title-block-style: none
+page-layout: full
+---
+
+{{< include content/_home.qmd >}}
+
+{{< include content/_projects.qmd >}}
+
+{{< include content/_experience.qmd >}}
+
+{{< include content/_publications.qmd >}}
+
+{{< include content/_contact.qmd >}}
+

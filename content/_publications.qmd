@@ -1,0 +1,37 @@
+```{=html}
+<section class="section publications-section" id="publications">
+  <div class="section-heading compact-heading">
+    <p class="section-number">03 / Publications</p>
+    <h2>Selected writing and research.</h2>
+    <p>Peer-reviewed work and applied scholarship on aquatic ecosystems, fisheries and climate change.</p>
+  </div>
+
+  <div class="publication-list">
+    <article class="publication">
+      <p class="publication-year">2021</p>
+      <div>
+        <p class="publication-type">Peer-reviewed article</p>
+        <h3>Continental aquatic ecosystems and their services</h3>
+        <p>Approaches and real-world application scenarios · Ecología Austral 31</p>
+      </div>
+    </article>
+    <article class="publication">
+      <p class="publication-year">2019</p>
+      <div>
+        <p class="publication-type">Peer-reviewed article</p>
+        <h3>Hydrological variability, zooplankton availability and feeding behaviour</h3>
+        <p>Environmental Biology of Fishes</p>
+      </div>
+    </article>
+    <article class="publication">
+      <p class="publication-year">2017</p>
+      <div>
+        <p class="publication-type">Book chapter</p>
+        <h3>Climate change and a transboundary fishery: the whitemouth croaker</h3>
+        <p>Agua y Sociedad · Universidad Nacional de Cuyo</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+```

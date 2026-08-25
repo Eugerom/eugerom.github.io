@@ -1,0 +1,86 @@
+```{=html}
+<section class="section" id="projects">
+  <div class="section-heading">
+    <p class="section-number">01 / Selected projects</p>
+    <h2>Spatial questions, made visible.</h2>
+    <p>Exploratory tools and applied analyses developed across research, government and professional training.</p>
+  </div>
+
+  <article class="featured-project">
+    <div class="project-copy">
+      <p class="project-kicker">Featured · Interactive dashboard</p>
+      <h3>Global seismic-vessel presence</h3>
+      <p>
+        An exploratory ArcGIS dashboard that maps the distribution and temporal
+        patterns of vessels associated with marine seismic surveys using Global
+        Fishing Watch presence data.
+      </p>
+      <p class="project-note">
+        The activity categories are analytical proxies based on vessel presence
+        and movement characteristics. They should not be read as validated
+        acoustic operations.
+      </p>
+      <ul class="tag-list" aria-label="Tools and topics">
+        <li>ArcGIS Dashboards</li>
+        <li>Global Fishing Watch</li>
+        <li>AIS</li>
+        <li>Spatial analysis</li>
+      </ul>
+      <a class="button button-primary" href="https://uw.maps.arcgis.com/apps/dashboards/308a5c604d7c478d890db1a31d34c2d9" target="_blank" rel="noreferrer">
+        Open full dashboard <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+    <div class="dashboard-frame">
+      <div class="frame-bar">
+        <span>GLOBAL VIEW</span>
+        <span>INTERACTIVE</span>
+      </div>
+      <iframe
+        title="Global seismic-vessel presence dashboard"
+        src="https://uw.maps.arcgis.com/apps/dashboards/308a5c604d7c478d890db1a31d34c2d9"
+        loading="lazy"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </article>
+
+  <div class="project-grid">
+    <article class="project-card project-card-water">
+      <div class="card-index">02</div>
+      <div>
+        <p class="project-kicker">Remote sensing · Case study</p>
+        <h3>Floodplain surface-water dynamics</h3>
+        <p>
+          A Google Earth Engine comparison of contrasting hydrological conditions
+          near Victoria, Argentina, connected to fish recruitment and government
+          monitoring records.
+        </p>
+      </div>
+      <ul class="tag-list">
+        <li>Google Earth Engine</li>
+        <li>Surface water</li>
+        <li>Fisheries ecology</li>
+      </ul>
+    </article>
+
+    <article class="project-card project-card-fleet">
+      <div class="card-index">03</div>
+      <div>
+        <p class="project-kicker">Government analysis · Argentina</p>
+        <h3>Commercial-fleet spatial patterns</h3>
+        <p>
+          Spatial analysis and mapping of Argentine commercial-fleet landings,
+          vessel-monitoring data and bottom-trawl activity to support fisheries
+          planning and technical reporting.
+        </p>
+      </div>
+      <ul class="tag-list">
+        <li>VMS</li>
+        <li>R &amp; Python</li>
+        <li>Fisheries management</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+```

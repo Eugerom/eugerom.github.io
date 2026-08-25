@@ -1,0 +1,26 @@
+```{=html}
+<section class="contact-section" id="contact">
+  <p class="section-number">04 / Contact</p>
+  <h2>Interested in marine evidence that can travel into policy?</h2>
+  <p>
+    I am based in Baltimore, Maryland, and open to research and collaborative
+    opportunities in fisheries, marine spatial analysis, conservation and
+    environmental policy.
+  </p>
+  <div class="contact-actions">
+    <a class="button button-light" href="mailto:eugerom017@gmail.com">
+      eugerom017@gmail.com <span aria-hidden="true">↗</span>
+    </a>
+    <a class="text-link text-link-light" href="files/Maria_Eugenia_Romero_CV.pdf" download>
+      Download CV <span aria-hidden="true">↓</span>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>Maria Eugenia Romero · Environmental Scientist</p>
+  <p>Fisheries · Spatial Analysis · Policy</p>
+</footer>
+</div>
+
+```

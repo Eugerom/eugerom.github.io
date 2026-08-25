@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Maria Eugenia Romero"
+  site-url: "https://eugerom.github.io"
+  description: "Environmental scientist connecting fisheries, marine spatial analysis, aquatic ecosystems and environmental policy."
+  favicon: images/favicon.svg
+  search: false
+  navbar: false
+  page-footer: false
+  open-graph:
+    title: "Maria Eugenia Romero | Fisheries & Marine Spatial Analysis"
+    description: "Environmental scientist connecting fisheries, marine spatial analysis, aquatic ecosystems and environmental policy."
+    image: images/social-preview.png
+  twitter-card:
+    title: "Maria Eugenia Romero | Fisheries & Marine Spatial Analysis"
+    description: "Environmental scientist connecting fisheries, marine spatial analysis, aquatic ecosystems and environmental policy."
+    image: images/social-preview.png
+
+format:
+  html:
+    theme: none
+    css: styles.css
+    toc: false
+    anchor-sections: false
+    smooth-scroll: true
+
