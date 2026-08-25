@@ -2,11 +2,11 @@
 <section class="section-block" id="work">
   <div class="section-heading">
     <p class="eyebrow">Selected work</p>
-    <h2>Spatial evidence made usable.</h2>
-    <p>
-      Selected analytical and geospatial products developed across marine,
-      fisheries and freshwater contexts.
-    </p>
+
+    <div>
+      <h2>Projects</h2>
+      <p>Interactive products developed from vessel, fisheries and remote-sensing data.</p>
+    </div>
   </div>
 
   <article class="featured-project">
@@ -15,10 +15,10 @@
       <h3>Global seismic-vessel presence</h3>
 
       <p>
-        An exploratory dashboard developed to examine the spatial and temporal
-        presence of vessels potentially associated with offshore seismic surveys.
-        It combines vessel-position information with transparent classification
-        rules to distinguish possible transit from possible operational patterns.
+        An exploratory dashboard summarizing the global AIS presence of
+        seismic-classified vessels. Screening categories distinguish patterns
+        compatible with transit, port presence and possible acquisition; they
+        are analytical classifications rather than verified operational states.
       </p>
 
       <ul class="tag-list">
@@ -52,23 +52,22 @@
     </div>
   </article>
 
-  <article class="featured-project" style="border-top: 0;">
+  <article class="featured-project">
     <div class="featured-copy">
-      <p class="project-kicker">Remote sensing · Interactive application</p>
-      <h3>Hydrological variability and fisheries in the Paraná floodplain</h3>
+      <p class="project-kicker">Google Earth Engine · Interactive application</p>
+      <h3>Hydrological variability in the Paraná floodplain</h3>
 
       <p>
-        An interactive Google Earth Engine application comparing surface-water
-        extent during contrasting hydrological conditions near Victoria, Argentina,
-        and relating these patterns to fish recruitment and government monitoring
-        records.
+        An interactive comparison of mapped surface-water extent in January 2016
+        and January 2021 near Victoria, Argentina, interpreted alongside fish
+        recruitment and government monitoring records.
       </p>
 
       <ul class="tag-list">
         <li>Google Earth Engine</li>
         <li>Surface water</li>
-        <li>Fisheries ecology</li>
         <li>Remote sensing</li>
+        <li>Fisheries ecology</li>
       </ul>
 
       <a
@@ -95,29 +94,5 @@
       </iframe>
     </div>
   </article>
-
-  <div class="project-grid" style="grid-template-columns: 1fr;">
-    <article class="project-card">
-      <div class="card-index">03</div>
-
-      <div>
-        <p class="project-kicker">Fisheries · Spatial analysis</p>
-        <h3>Argentine commercial-fleet analysis</h3>
-
-        <p>
-          Spatial analysis and mapping of Argentine commercial-fleet landings and
-          vessel-monitoring data to support fisheries planning and technical
-          reporting.
-        </p>
-      </div>
-
-      <ul class="tag-list">
-        <li>Fisheries data</li>
-        <li>Vessel monitoring</li>
-        <li>Spatial analysis</li>
-        <li>Technical reporting</li>
-      </ul>
-    </article>
-  </div>
 </section>
 ```
