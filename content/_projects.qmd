@@ -92,9 +92,10 @@
     </div>
   </article>
 
-  <article class="featured-project">
+    <article class="featured-project">
     <div class="featured-copy">
-      <p class="project-kicker">VMS · Fisheries management · Spatial analysis</p>
+      <p class="project-kicker">Python · VMS · Geospatial analysis</p>
+
       <h3>El Rincón: VMS patterns in a potential fisheries OECM case</h3>
 
       <p>
@@ -105,9 +106,9 @@
       </p>
 
       <ul class="tag-list">
+        <li>Python</li>
         <li>VMS</li>
         <li>Fisheries management</li>
-        <li>Spatial analysis</li>
         <li>OECMs</li>
       </ul>
 
@@ -137,5 +138,4 @@
       </a>
     </div>
   </article>
-</section>
 ```
