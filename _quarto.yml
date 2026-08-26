@@ -15,13 +15,13 @@ website:
   search: false
   navbar: false
   open-graph:
-    title: "Maria Eugenia Romero | Environmental Science & Spatial Analysis"
+    title: "Environmental Science · Spatial Analysis · Public Policy"
     description: "Environmental scientist and geospatial analyst working across marine conservation, fisheries, biodiversity, wetlands and freshwater systems."
-    image: images/social-preview.png
+    image: images/linkedin-preview-dark-v2.png
   twitter-card:
-    title: "Maria Eugenia Romero | Environmental Science & Spatial Analysis"
+    title: "Environmental Science · Spatial Analysis · Public Policy"
     description: "Environmental scientist and geospatial analyst working across marine conservation, fisheries, biodiversity, wetlands and freshwater systems."
-    image: images/social-preview.png
+    image: images/linkedin-preview-dark-v2.png
 
 format:
   html:
