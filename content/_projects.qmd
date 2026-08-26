@@ -2,7 +2,6 @@
 <section class="section-block" id="work">
   <div class="section-heading">
     <p class="eyebrow">Selected work</p>
-
     <div>
       <h2>Projects</h2>
       <p>Interactive products developed from vessel, fisheries and remote-sensing data.</p>
@@ -28,11 +27,10 @@
         <li>Spatial analysis</li>
       </ul>
 
-      <a
-        class="button button-primary"
-        href="https://uw.maps.arcgis.com/apps/dashboards/308a5c604d7c478d890db1a31d34c2d9"
-        target="_blank"
-        rel="noreferrer">
+      <a class="button button-primary"
+         href="https://uw.maps.arcgis.com/apps/dashboards/308a5c604d7c478d890db1a31d34c2d9"
+         target="_blank"
+         rel="noreferrer">
         Open full dashboard <span aria-hidden="true">↗</span>
       </a>
     </div>
@@ -70,11 +68,10 @@
         <li>Fisheries ecology</li>
       </ul>
 
-      <a
-        class="button button-primary"
-        href="https://romeroma.users.earthengine.app/view/parana-floodplain"
-        target="_blank"
-        rel="noreferrer">
+      <a class="button button-primary"
+         href="https://romeroma.users.earthengine.app/view/parana-floodplain"
+         target="_blank"
+         rel="noreferrer">
         Open Earth Engine app <span aria-hidden="true">↗</span>
       </a>
     </div>
@@ -92,6 +89,52 @@
         allow="fullscreen"
         allowfullscreen>
       </iframe>
+    </div>
+  </article>
+
+  <article class="featured-project">
+    <div class="featured-copy">
+      <p class="project-kicker">VMS · Fisheries management · Spatial analysis</p>
+      <h3>El Rincón: VMS patterns in a potential fisheries OECM case</h3>
+
+      <p>
+        A descriptive visualization of aggregated Argentine VMS records in and
+        around El Rincón from 2005 to 2024. A fixed grid and the AER-2010
+        boundary support seasonal comparison without treating recorded
+        locations as trawled area or as a compliance assessment.
+      </p>
+
+      <ul class="tag-list">
+        <li>VMS</li>
+        <li>Fisheries management</li>
+        <li>Spatial analysis</li>
+        <li>OECMs</li>
+      </ul>
+
+      <a class="button button-primary"
+         href="projects/el-rincon-omec.html"
+         target="_blank"
+         rel="noreferrer">
+        Open full case study <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+
+    <div class="dashboard-frame dashboard-frame-gif">
+      <div class="frame-bar">
+        <span>EL RINCÓN · VMS TIME SERIES</span>
+        <span>ANIMATED · 2005–2024</span>
+      </div>
+
+      <a class="project-gif-link"
+         href="projects/el-rincon-omec.html"
+         target="_blank"
+         rel="noreferrer"
+         aria-label="Open the full El Rincón VMS case study">
+        <img
+          src="images/el-rincon-vms-2005-2024.gif"
+          alt="Animated seasonal distribution of aggregated VMS records in and around El Rincón from 2005 to 2024"
+          loading="lazy">
+      </a>
     </div>
   </article>
 </section>

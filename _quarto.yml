@@ -3,6 +3,9 @@ project:
   output-dir: _site
   render:
     - index.qmd
+  resources:
+    - images/el-rincon-vms-2005-2024.gif
+    - projects/el-rincon-omec.html
 
 website:
   title: "Maria Eugenia Romero"
