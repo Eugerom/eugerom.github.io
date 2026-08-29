@@ -141,7 +141,7 @@
   <article class="featured-project">
     <div class="featured-copy">
       <p class="project-kicker">Google Earth Engine · R · Interactive dashboard</p>
-      <h3>Four decades of land-cover change in the Rivanna watershed</h3>
+      <h3>Four decades of land-cover change in the Rivanna River watershed</h3>
 
       <p>
         A pixel-based analysis of Annual NLCD across 22 HUC-12 subwatersheds
