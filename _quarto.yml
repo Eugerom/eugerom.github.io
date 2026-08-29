@@ -6,6 +6,7 @@ project:
   resources:
     - images/el-rincon-vms-2005-2024.gif
     - projects/el-rincon-omec.html
+    - projects/rivanna-landcover-dashboard.html
 
 website:
   title: "Maria Eugenia Romero"
