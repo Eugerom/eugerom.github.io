@@ -21,12 +21,10 @@
         Marine conservation · Fisheries · Wetlands · Geospatial analysis
       </p>
 
-      <h1>Environmental science, spatial analysis and public policy.</h1>
+      <h1>Environmental data across marine and freshwater ecosystems.</h1>
 
       <p class="hero-intro">
-        I use this portfolio to bring together projects connected to my work on aquatic ecosystems, from watershed change to fishing activity and ocean
-        governance. My broader interest is in how spatial data can contribute to ecosystem-based management, although the examples presented here are exploratory          and were not developed for specific decisions.
-.
+        I created this portfolio to bring together independent visualizations based on questions I have encountered in my work, from rivers and wetlands to marine         fisheries and ocean governance. They show how I work with environmental data, but they were not developed as scientific studies or as part of management           processes.
       </p>
 
       <div class="hero-actions">
