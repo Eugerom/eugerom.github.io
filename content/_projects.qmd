@@ -92,10 +92,9 @@
     </div>
   </article>
 
-    <article class="featured-project">
+  <article class="featured-project">
     <div class="featured-copy">
       <p class="project-kicker">Python · VMS · Geospatial analysis</p>
-
       <h3>El Rincón: VMS patterns in a potential fisheries OECM case</h3>
 
       <p>
@@ -138,4 +137,47 @@
       </a>
     </div>
   </article>
+
+  <article class="featured-project">
+    <div class="featured-copy">
+      <p class="project-kicker">Google Earth Engine · R · Interactive dashboard</p>
+      <h3>Four decades of land-cover change in the Rivanna watershed</h3>
+
+      <p>
+        A pixel-based analysis of Annual NLCD across 22 HUC-12 subwatersheds
+        from 1985 to 2025. The dashboard combines first-to-last comparisons,
+        annual mapped transitions and a terrestrial comparison within 100 m
+        of mapped streams.
+      </p>
+
+      <ul class="tag-list">
+        <li>Google Earth Engine</li>
+        <li>R</li>
+        <li>Remote sensing</li>
+        <li>Land-cover change</li>
+      </ul>
+
+      <a class="button button-primary"
+         href="projects/rivanna-landcover-dashboard.html"
+         target="_blank"
+         rel="noreferrer">
+        Open full dashboard <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+
+    <div class="dashboard-frame dashboard-frame-map">
+      <div class="frame-bar">
+        <span>RIVANNA RIVER WATERSHED</span>
+        <span>INTERACTIVE MAP</span>
+      </div>
+
+      <iframe
+        title="Interactive map of land-cover change across the Rivanna River watershed"
+        src="projects/rivanna-landcover-dashboard.html?embed=map"
+        loading="lazy"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </article>
+</section>
 ```
