@@ -8,47 +8,7 @@
     </div>
   </div>
 
-  <article class="featured-project">
-    <div class="featured-copy">
-      <p class="project-kicker">ArcGIS Dashboards · Exploratory prototype</p>
-      <h3>Global seismic-vessel presence</h3>
-
-      <p>
-        An exploratory dashboard summarizing the global AIS presence of
-        seismic-classified vessels. Screening categories distinguish patterns
-        compatible with transit, port presence and possible acquisition; they
-        are analytical classifications rather than verified operational states.
-      </p>
-
-      <ul class="tag-list">
-        <li>ArcGIS Dashboards</li>
-        <li>AIS</li>
-        <li>Global Fishing Watch</li>
-        <li>Spatial analysis</li>
-      </ul>
-
-      <a class="button button-primary"
-         href="https://uw.maps.arcgis.com/apps/dashboards/308a5c604d7c478d890db1a31d34c2d9"
-         target="_blank"
-         rel="noreferrer">
-        Open full dashboard <span aria-hidden="true">↗</span>
-      </a>
-    </div>
-
-    <div class="dashboard-frame">
-      <div class="frame-bar">
-        <span>GLOBAL SEISMIC-VESSEL PRESENCE</span>
-        <span>INTERACTIVE</span>
-      </div>
-
-      <iframe
-        title="Global seismic-vessel presence dashboard"
-        src="https://uw.maps.arcgis.com/apps/dashboards/308a5c604d7c478d890db1a31d34c2d9"
-        loading="lazy"
-        allowfullscreen>
-      </iframe>
-    </div>
-  </article>
+  
 
   <article class="featured-project">
     <div class="featured-copy">
